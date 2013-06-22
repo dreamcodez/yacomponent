@@ -1,4 +1,5 @@
 { "name": "yacomponent"
+, "version": "0.1.0",
 , "description": "Yet another web component system. Uses LiveScript class system. Encapsulates templating, dom mutation, and attachment phases (for event handlers) into one cohesive class."
 , "author": "Matthew A Elder"
 , "dependencies":
