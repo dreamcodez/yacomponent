@@ -38,8 +38,8 @@ module.exports =
       unless @parent
         if auto-render
           @render!
-          if auto-attach
-            @attach!
+        if auto-attach
+          @attach!
 
     is-client: !!window?
     template: (-> '')
