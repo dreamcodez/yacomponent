@@ -1,1 +1,1 @@
-module.exports = require('./Component')
+module.exports = require('./Component.js')
