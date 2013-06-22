@@ -4,6 +4,7 @@
 , "author": "Matthew A Elder"
 , "dependencies":
   { "cheerio": "*"
+  , "LiveScript": "*"
   , "reactivejs": "https://github.com/mattbaker/Reactive.js/archive/master.tar.gz"
   }
 }
