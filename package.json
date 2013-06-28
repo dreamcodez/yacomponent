@@ -4,8 +4,11 @@
 , "author": "Matthew A Elder"
 , "license": "MIT"
 , "devDependencies":
-  { "mocha": "*"
+  { "blanket": "*"
+  , "coveralls": "*"
   , "LiveScript": "*"
+  , "mocha": "*"
+  , "mocha-lcov-reporter": "*"
   }
 , "dependencies":
   { "cheerio": "*"
@@ -13,5 +16,8 @@
   }
 , "scripts":
   { "test": "bin/run-tests"
+  , "blanket":
+    { "pattern": ["Component.js"]
+    }
   }
 }
