@@ -20,4 +20,5 @@
     { "pattern": ["src/Component.js"]
     }
   }
+, "main": "./main"
 }
