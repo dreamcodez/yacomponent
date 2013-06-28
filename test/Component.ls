@@ -43,6 +43,10 @@ describe 'new Component' ->
     _it "should setup two locals: a and b" !->
       assert.deep-equal c.locals!, expected
 
+  describe ".locall(\\b)", ->
+    _it "should return 2" !->
+      assert.equal c.local(\b), 2
+
   describe ".locall(\\foo)", ->
     _it "should return void" !->
       assert.equal c.local(\foo), void
