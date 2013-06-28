@@ -1,6 +1,6 @@
 (function(){
   var define;
-  define = (typeof window != 'undefined' && window !== null ? window.define : void 8) || require('amdefine')(module);
+  define = (typeof window != 'undefined' && window !== null ? window.define : void 8) || require('amdefine')(module, require);
   define(function(require){
     var reactivejs, dollarish, Component;
     reactivejs = require('reactivejs');

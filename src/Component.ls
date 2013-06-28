@@ -1,4 +1,4 @@
-define = window?define or require(\amdefine) module
+define = window?define or require(\amdefine) module, require
 define (require) ->
   require! reactivejs
 
