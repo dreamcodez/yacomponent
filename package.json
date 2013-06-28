@@ -11,7 +11,8 @@
   , "mocha-lcov-reporter": "*"
   }
 , "dependencies":
-  { "cheerio": "*"
+  { "amdefine": "*"
+  , "cheerio": "*"
   , "reactivejs": "https://github.com/mattbaker/Reactive.js/archive/master.tar.gz"
   }
 , "scripts":
