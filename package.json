@@ -17,7 +17,7 @@
 , "scripts":
   { "test": "bin/run-tests"
   , "blanket":
-    { "pattern": ["Component.js"]
+    { "pattern": ["Component.js", "HelloWorld.js", "Parent.js"]
     }
   }
 }
