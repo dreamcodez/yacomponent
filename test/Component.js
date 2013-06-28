@@ -1,7 +1,7 @@
 (function(){
   var assert, Component, $, $R, _it;
   assert = require('assert');
-  Component = require('../Component');
+  Component = require('../src/Component');
   $ = require('cheerio');
   $R = require('reactivejs');
   _it = it;

@@ -1,7 +1,7 @@
 (function(){
   var assert, HelloWorld, _it;
   assert = require('assert');
-  HelloWorld = require('../HelloWorld');
+  HelloWorld = require('../src/HelloWorld');
   _it = it;
   describe('new HelloWorld', function(){
     var h;

@@ -1,7 +1,7 @@
 (function(){
   var assert, Parent, _it;
   assert = require('assert');
-  Parent = require('../Parent');
+  Parent = require('../src/Parent');
   _it = it;
   describe('new Parent', function(){
     var p;

@@ -1,6 +1,6 @@
 require! {
   assert
-  \../Component
+  \../src/Component
   $: cheerio
   $R: reactivejs
 }
