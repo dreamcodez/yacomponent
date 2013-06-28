@@ -7,4 +7,7 @@
   { "cheerio": "*"
   , "reactivejs": "https://github.com/mattbaker/Reactive.js/archive/master.tar.gz"
   }
+, "scripts":
+  { "test": "bin/run-tests"
+  }
 }
