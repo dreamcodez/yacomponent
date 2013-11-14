@@ -97,7 +97,7 @@
       };
       prototype.render = function(){
         var locals, templateOut, $dom, i$, ref$, child;
-        this.$.addClass(this.constructor.name);
+        this.$.addClass(this.constructor.displayName);
         locals = this.locals();
         templateOut = this.template(locals);
         if (this.mutate || this.children) {
@@ -117,6 +117,9 @@
           this.$.html(templateOut);
         }
         return this;
+      };
+      prototype.reload = function(){
+        return this.detach().render().attach();
       };
       prototype.locals = function(newLocals){
         var k, v, ref$, s, results$ = {};

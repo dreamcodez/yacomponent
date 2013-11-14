@@ -71,7 +71,7 @@ define (require) ->
     # programmer/sub-classer can override render
     # it just needs to output html given @locals
     render: ->
-      @$.add-class @.constructor.name # add class-name to container
+      @$.add-class @constructor.display-name # add class-name to container
 
       locals = @locals!
 
@@ -102,6 +102,8 @@ define (require) ->
         @$.html template-out
 
       return @
+    reload: ->
+      @detach!render!attach!
     locals: (new-locals) ->
       # mass merge of locals
       if new-locals
